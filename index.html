@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cipta Hospital Indonesia</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
+    <!-- Navbar -->
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-lg navbar-light bg-white fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+          <i class="fas fa-hospital me-2 text-primary"></i>Cipta Hospital
+          Indonesia
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Pelayanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#appointment">Buat Janji</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#doctors">Dokter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container text-center fade-in">
+        <h1 class="display-4 fw-bold mb-4">Rumah Sakit Cipta Indonesia</h1>
+        <p class="lead mb-5">
+          Memberikan pelayanan kesehatan terbaik dengan teknologi terkini dan
+          tim medis profesional
+        </p>
+        <a href="#appointment" class="btn btn-primary btn-lg px-5t me-2"
+          >Buat Janji Temu</a
+        >
+        <a href="#contact" class="btn btn-outline-light btn-lg px-4"
+          >Hubungi Kami</a
+        >
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="text-center section-title slide-up">
+          Tentang Rumah Sakit Kami
+        </h2>
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4 mb-lg-0 slide-up">
+            <img
+              src=" https://plus.unsplash.com/premium_photo-1661853797396-f6b58f6e5b0c?q=80&w=1004&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Rumah Sakit Cipta Indonesia"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+          <div class="col-lg-6 slide-up">
+            <h3 class="mb-4">Profil Rumah Sakit</h3>
+            <p>
+              Berdiri sejak tahun 1995, Rumah Sakit Cipta Indonesia (RSCI) telah
+              berkomitmen penuh untuk menyediakan pelayanan kesehatan
+              berkualitas tinggi bagi masyarakat. Selama lebih dari seperempat
+              abad, kami telah tumbuh dan berkembang menjadi salah satu
+              institusi kesehatan terkemuka di wilayah ini, didukung oleh
+              fasilitas modern dan tim medis multidisiplin yang sangat
+              berpengalaman.
+            </p>
+            <p>
+              Dengan rekam jejak lebih dari 25 tahun, RSCI bangga menjadi
+              pilihan utama bagi ribuan pasien yang mencari perawatan kesehatan
+              komprehensif, terpersonalisasi, dan terpercaya. Kami senantiasa
+              berinovasi untuk memastikan setiap pasien menerima pelayanan
+              terbaik dengan sentuhan kepedulian yang mendalam.
+            </p>
+            <h4 class="mt-5 mb-3">Visi</h4>
+            <p>
+              Menjadi rumah sakit terdepan dan pilihan utama dalam pelayanan
+              kesehatan yang berorientasi pada pasien, didukung oleh standar
+              kualitas internasional.
+            </p>
+            <h4 class="mt-5 mb-3">Misi</h4>
+            <ul>
+              <li>
+                Menyediakan pelayanan kesehatan prima dan berkesinambungan.
+              </li>
+              <li>Mengutamakan keamanan, kenyamanan, dan kebutuhan pasien.</li>
+              <li>
+                Membangun tim medis dan profesional yang kompeten dan berempati.
+              </li>
+              <li>Mengadopsi teknologi medis terkini untuk hasil optimal.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center section-title slide-up">Pelayanan Kami</h2>
+        <p class="text-center mb-5 slide-up">
+          Kami menyediakan berbagai layanan kesehatan berkualitas untuk memenuhi
+          kebutuhan Anda
+        </p>
+        <div class="row g-4">
+          <div class="col-md-4 slide-up">
+            <div class="card service-card h-100">
+              <div class="card-body text-center p-4">
+                <div class="service-icon">
+                  <i class="fas fa-heartbeat"></i>
+                </div>
+                <h4 class="card-title">Poli Jantung</h4>
+                <p class="card-text">
+                  Pelayanan pemeriksaan dan perawatan jantung dengan teknologi
+                  terkini dan dokter spesialis berpengalaman.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 slide-up">
+            <div class="card service-card h-100">
+              <div class="card-body text-center p-4">
+                <div class="service-icon">
+                  <i class="fas fa-baby"></i>
+                </div>
+                <h4 class="card-title">Poli Anak</h4>
+                <p class="card-text">
+                  Layanan kesehatan khusus untuk anak-anak dengan pendekatan
+                  yang ramah dan menyenangkan.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 slide-up">
+            <div class="card service-card h-100">
+              <div class="card-body text-center p-4">
+                <div class="service-icon">
+                  <i class="fas fa-bone"></i>
+                </div>
+                <h4 class="card-title">Poli Ortopedi</h4>
+                <p class="card-text">
+                  Penanganan masalah tulang, sendi, dan otot dengan teknik
+                  terbaru dan peralatan canggih.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 slide-up">
+            <div class="card service-card h-100">
+              <div class="card-body text-center p-4">
+                <div class="service-icon">
+                  <i class="fas fa-eye"></i>
+                </div>
+                <h4 class="card-title">Poli Mata</h4>
+                <p class="card-text">
+                  Pelayanan kesehatan mata lengkap mulai dari pemeriksaan rutin
+                  hingga operasi katarak.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 slide-up">
+            <div class="card service-card h-100">
+              <div class="card-body text-center p-4">
+                <div class="service-icon">
+                  <i class="fas fa-procedures"></i>
+                </div>
+                <h4 class="card-title">Rawat Inap</h4>
+                <p class="card-text">
+                  Kamar rawat inap nyaman dengan fasilitas lengkap dan perawat
+                  24 jam.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 slide-up">
+            <div class="card service-card h-100">
+              <div class="card-body text-center p-4">
+                <div class="service-icon">
+                  <i class="fas fa-ambulance"></i>
+                </div>
+                <h4 class="card-title">UGD 24 Jam</h4>
+                <p class="card-text">
+                  Unit Gawat Darurat siap melayani 24 jam dengan tim medis
+                  berpengalaman.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="py-5">
+      <div class="container">
+        <h2 class="text-center section-title slide-up">Buat Janji Temu</h2>
+        <p class="text-center mb-5 slide-up">
+          Isi formulir berikut untuk membuat janji temu dengan dokter spesialis
+          kami
+        </p>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 slide-up">
+            <div class="appointment-form">
+              <form id="appointmentForm">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="name" class="form-label">Nama Lengkap</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="phone" class="form-label">Nomor Telepon</label>
+                    <input
+                      type="tel"
+                      class="form-control"
+                      id="phone"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="date" class="form-label">Tanggal Janji</label>
+                    <input
+                      type="date"
+                      class="form-control"
+                      id="date"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="doctor" class="form-label">Pilih Dokter</label>
+                    <select class="form-select" id="doctor" required>
+                      <option value="" selected disabled>
+                        Pilih Dokter Spesialis
+                      </option>
+                      <option value="dr. Suko Adiarto, Sp.JP(K), Ph.D.">
+                        dr. Suko Adiarto, Sp.JP(K), Ph.D. (Jantung)
+                      </option>
+                      <option value="dr. Siti Rahayu, Sp.A">
+                        dr. Siti Rahayu, Sp.A (Anak)
+                      </option>
+                      <option value="dr. Tirta Mandira Hudhi, MBA">
+                        dr. Tirta Mandira Hudhi, MBA (Ortopedi)
+                      </option>
+                      <option value="dr. Dian Permatasari, Sp.M">
+                        dr. Dian Permatasari, Sp.M (Mata)
+                      </option>
+                      <option value="dr. Rina Hartati, Sp.PD">
+                        dr. Rina Hartati, Sp.PD (Penyakit Dalam)
+                      </option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="time" class="form-label">Waktu Janji</label>
+                    <select class="form-select" id="time" required>
+                      <option value="" selected disabled>Pilih Waktu</option>
+                      <option value="08:00 - 09:00">08:00 - 09:00</option>
+                      <option value="09:00 - 10:00">09:00 - 10:00</option>
+                      <option value="10:00 - 11:00">10:00 - 11:00</option>
+                      <option value="13:00 - 14:00">13:00 - 14:00</option>
+                      <option value="14:00 - 15:00">14:00 - 15:00</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <label for="message" class="form-label"
+                      >Keluhan/Pesan Tambahan</label
+                    >
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <div class="col-12 mt-4">
+                    <button type="submit" class="btn btn-primary w-100 py-3">
+                      Kirim Permohonan Janji
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section id="doctors" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center section-title slide-up">
+          Dokter Spesialis Kami
+        </h2>
+        <p class="text-center mb-5 slide-up">
+          Tim dokter profesional kami siap memberikan pelayanan terbaik untuk
+          Anda
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3 slide-up">
+            <div class="card doctor-card h-100">
+              <img
+                src=" https://heartology.id/wp-content/uploads/2025/01/heartology-dr-suko-adiarto-sp-jpk-center-1428-1680.png "
+                class="card-img-top doctor-img"
+                alt="dr. Suko Adiarto, Sp.JP(K), Ph.D."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">dr. Suko Adiarto, Sp.JP(K), Ph.D.</h5>
+                <p class="card-text text-primary">
+                  Spesialis Jantung dan Pembuluh Darah
+                </p>
+                <p class="card-text">
+                  Lulusan Universitas Indonesia dengan pengalaman 15 tahun di
+                  bidang kardiologi.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 slide-up">
+            <div class="card doctor-card h-100">
+              <img
+                src="https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2022/03/08055643/Cari-Dokter-Umum-Terbaik-di-Yogyakarta_-Ini-5-Rekomendasinya.jpg.webp "
+                class="card-img-top doctor-img"
+                alt="Dr. Siti Rahayu"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">dr. Siti Rahayu, Sp.A</h5>
+                <p class="card-text text-primary">Spesialis Anak</p>
+                <p class="card-text">
+                  Ahli dalam tumbuh kembang anak dengan pendekatan yang ramah
+                  dan menyenangkan.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 slide-up">
+            <div class="card doctor-card h-100">
+              <img
+                src="https://akcdn.detik.net.id/visual/2020/03/29/128edeb0-da7c-4879-b431-f84d2e822b3a_169.png?w=750&q=90"
+                class="card-img-top doctor-img"
+                alt="Dr. Tirta Mandira Hudhi"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">dr. Tirta Mandira Hudhi, MBA</h5>
+                <p class="card-text text-primary">Spesialis Ortopedi</p>
+                <p class="card-text">
+                  Ahli bedah tulang dengan spesialisasi dalam penggantian sendi
+                  dan trauma.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 slide-up">
+            <div class="card doctor-card h-100">
+              <img
+                src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1688972405/attached_image/pilihan-karir-non-klinis-untuk-dokter-di-indonesia.jpg "
+                class="card-img-top doctor-img"
+                alt="Dr. Dian Permatasari"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">dr. Dian Permatasari, Sp.M</h5>
+                <p class="card-text text-primary">Spesialis Mata</p>
+                <p class="card-text">
+                  Ahli dalam operasi katarak dan LASIK dengan teknologi terkini.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center section-title slide-up">Hubungi Kami</h2>
+        <p class="text-center mb-5 slide-up">
+          Kami siap membantu dan menjawab pertanyaan Anda
+        </p>
+        <div class="row g-4">
+          <div class="col-lg-6 slide-up">
+            <div class="contact-info">
+              <h4 class="mb-4">Informasi Kontak</h4>
+              <div class="d-flex align-items-start mb-4">
+                <i class="fas fa-map-marker-alt contact-icon mt-1"></i>
+                <div>
+                  <h5 class="mb-1">Alamat</h5>
+                  <p class="mb-0">
+                    Jl. Kesehatan No. 123, Jakarta Pusat, DKI Jakarta 10110
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex align-items-start mb-4">
+                <i class="fas fa-phone-alt contact-icon mt-1"></i>
+                <div>
+                  <h5 class="mb-1">Telepon</h5>
+                  <p class="mb-0">(021) 1234567</p>
+                  <p class="mb-0">0812-3456-7890 (24 Jam)</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-start mb-4">
+                <i class="fas fa-envelope contact-icon mt-1"></i>
+                <div>
+                  <h5 class="mb-1">Email</h5>
+                  <p class="mb-0">info@ciptahospital.com</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-start">
+                <i class="fas fa-clock contact-icon mt-1"></i>
+                <div>
+                  <h5 class="mb-1">Jam Operasional</h5>
+                  <p class="mb-0">Senin - Jumat: 08:00 - 21:00</p>
+                  <p class="mb-0">Sabtu - Minggu: 08:00 - 17:00</p>
+                  <p class="mb-0">UGD: 24 Jam</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 slide-up">
+            <div class="contact-info">
+              <h4 class="mb-4">Kirim Pesan</h4>
+              <form id="contactForm">
+                <div class="mb-3">
+                  <label for="contactName" class="form-label">Nama Anda</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="contactName"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="contactEmail" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="contactEmail"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="contactSubject" class="form-label">Subjek</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="contactSubject"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="contactMessage" class="form-label">Pesan</label>
+                  <textarea
+                    class="form-control"
+                    id="contactMessage"
+                    rows="4"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100 py-3">
+                  Kirim Pesan
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-12 slide-up">
+            <div class="mt-4" style="height: 400px">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613506864!3d-6.194741395493371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390917b759%3A0x9b3c12b1b1c0e1a5!2sMonumen%20Nasional!5e0!3m2!1sen!2sid!4v1622253692010!5m2!1sen!2sid"
+                width="100%"
+                height="100%"
+                style="border: 0; border-radius: 10px"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 slide-up">
+            <h5 class="text-white mb-4">
+              <i class="fas fa-hospital me-2"></i>Cipta Hospital
+            </h5>
+            <p>
+              Rumah Sakit Cipta Indonesia memberikan pelayanan kesehatan terbaik
+              dengan teknologi terkini dan tim medis profesional.
+            </p>
+            <div class="mt-4">
+              <a
+                href=" https://www.facebook.com/fahri.fatir.545 "
+                class="social-icon"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/fahripatir "
+                class="social-icon"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 slide-up">
+            <h5 class="text-white mb-4">Tautan Cepat</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#home" class="text-white-50 text-decoration-none"
+                  >Beranda</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#about" class="text-white-50 text-decoration-none"
+                  >Tentang Kami</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#services" class="text-white-50 text-decoration-none"
+                  >Pelayanan</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#doctors" class="text-white-50 text-decoration-none"
+                  >Dokter</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#contact" class="text-white-50 text-decoration-none"
+                  >Kontak</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 slide-up">
+            <h5 class="text-white mb-4">Pelayanan Kami</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#doctors" class="text-white-50 text-decoration-none"
+                  >Poli Jantung</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#doctors" class="text-white-50 text-decoration-none"
+                  >Poli Anak</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#doctors" class="text-white-50 text-decoration-none"
+                  >Poli Ortopedi</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#doctors" class="text-white-50 text-decoration-none"
+                  >Poli Mata</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="#appointment"
+                  class="text-white-50 text-decoration-none"
+                  >Rawat Inap</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 slide-up">
+            <h5 class="text-white mb-4">Berlangganan Newsletter</h5>
+            <p class="text-white-50">
+              Dapatkan informasi terbaru tentang kesehatan dan promo dari kami.
+            </p>
+            <form id="newsletterForm" class="mt-3">
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email Anda"
+                  required
+                />
+                <button class="btn btn-primary" type="submit">
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <hr class="mt-5 mb-4" style="border-color: rgba(255, 255, 255, 0.1)" />
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="mb-0 text-white-50" style="opacity: 1 !important">
+              &copy; 2025 Fahri Patir Ramadhan. Semua Hak Dilindungi.
+            </p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <p class="mb-0 text-white-50">
+              Dibuat dengan <i class="fas fa-heart text-danger"></i> untuk
+              kesehatan masyarakat
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap @5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
